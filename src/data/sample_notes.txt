@@ -1,0 +1,19 @@
+Gradient descent is an optimization algorithm used to minimize a loss function. It updates model parameters by moving them in the direction that reduces the loss.
+
+Backpropagation is the process used to calculate gradients in a neural network. It applies the chain rule to determine how much each parameter contributed to the final error.
+
+A neural network contains layers of neurons. Each neuron receives inputs, applies weights and bias, calculates a weighted sum, and passes the result through an activation function.
+
+During training, a neural network performs forward propagation to generate predictions. The prediction is compared with the actual output using a loss function.
+
+The loss value tells us how wrong the prediction is. Backpropagation then calculates gradients, and an optimizer uses those gradients to update the model parameters.
+
+During inference, the trained model performs only forward propagation. The model generates predictions using its existing parameters, and the weights are not updated.
+
+Embeddings are numerical vector representations of information. In natural language processing, embeddings represent the semantic meaning of text in a vector space.
+
+Texts with similar meanings usually have embeddings that are closer together in the vector space. This property allows systems to perform semantic search.
+
+Retrieval-Augmented Generation combines information retrieval with a language model. Before generating an answer, the system retrieves relevant information from an external knowledge source.
+
+A vector database stores embeddings together with their associated text and metadata. During retrieval, a query is converted into an embedding and compared against stored embeddings to find semantically similar chunks.
